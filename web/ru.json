@@ -41,7 +41,7 @@
       "items": {
         "abundant": {
           "title": "Обилие функций",
-          "description": "Из за нашего огромного количества функций вы не почувствуете недостаток функций, особенно в визуальном плане."
+          "description": "Из за нашего огромного количества функций вы не почувствуете недостатка функций, особенно в визуальном плане."
         },
         "userFriendly": {
           "title": "Легок для использования",
@@ -61,23 +61,23 @@
         },
         "quality": {
           "title": "Премиальное качество",
-          "description": "We care about our users and strive to make our client as good as possible."
+          "description": "Мы заботимся о наших пользователях, и пытаемся улучшить опыт использования к небесам."
         }
       }
     },
     "media": {
-      "title": "Media",
-      "subtitle": "Check out some videos made by our community!"
+      "title": "Медиа",
+      "subtitle": "Несколько видно сделанные нашим сообществом"
     },
     "cta": {
-      "title": "Elevate your Minecraft experience. Your journey starts here.",
-      "button": "Purchase now"
+      "title": "Подними свой опыт использования как можно выше.",
+      "button": "Купить"
     }
   },
   "purchase": {
     "header": {
-      "title": "Choose Your Edition",
-      "subtitle": "Get Opal standalone, or unlock the full experience with Terminus and get Opal included free."
+      "title": "Выбери версию",
+      "subtitle": "Получи Opal как есть, либо открой полноценный игровой опыт вместе с Termus и получи Opal бесплатно!"
     },
     "chinaBanner": {
       "text": "Are you in China? Purchase from our official resellers for better support and payment options.",
@@ -87,40 +87,40 @@
       "title": "Opal Client",
       "price": "8.99",
       "currency": "USD",
-      "description": "The essential Minecraft hybrid utility client. Clean, lightweight, and undetectable.",
-      "featuresTitle": "What's included",
+      "description": "Незаменимая чит-модификация. Легковесная, Чистая, Необнаруживаемая.",
+      "featuresTitle": "Что включено?",
       "features": [
-        "Opal Client (lifetime)",
-        "All future updates",
-        "Discord support access"
+        "Opal Client (Навсегда)",
+        "Все последующие обновления",
+        "Доступ к поддержке Discord"
       ],
-      "button": "Purchase Opal",
-      "paymentMethods": "Card, Apple Pay, Google Pay, Klarna, CashApp, WeChat Pay"
+      "button": "Купить Opal",
+      "paymentMethods": "Картой, Apple Pay, Google Pay, Klarna, CashApp, WeChat Pay"
     },
     "terminus": {
-      "badge": "Best Value",
+      "badge": "Выгодно",
       "title": "Terminus: Minigame Edition",
       "price": "45.00",
       "currency": "USD",
-      "description": "The ultimate minigame client. Includes Opal Client free for life.",
-      "featuresTitle": "What's included",
+      "description": "Terminus: Minigame Edition. Opal Client включен.",
+      "featuresTitle": "Что включено",
       "features": [
         "Terminus: Minigame Edition (lifetime)",
-        "Opal Client included FREE (lifetime)",
-        "All future updates",
-        "Discord support access",
-        "Priority support"
+        "Opal Client БЕСПЛАТНО (lifetime)",
+        "Все последующие обновления",
+        "Доступ к поддержке Discord",
+        "Приоритетная поддержка"
       ],
-      "button": "Purchase Terminus Bundle",
-      "paymentMethods": "Card, Apple Pay, Google Pay, Klarna, CashApp, WeChat Pay"
+      "button": "Купить Terminus набор",
+      "paymentMethods": "Картой, Apple Pay, Google Pay, Klarna, CashApp, WeChat Pay"
     },
     "crypto": {
-      "title": "Pay with Crypto?",
-      "description": "Open a ticket in Discord for USDT, BTC, ETH, LTC, or XMR payments."
+      "title": "Купить используя криптовалюту?",
+      "description": "Откройте тикет в Discord для USDT, BTC, ETH, LTC, или XMR платежей."
     },
     "resellers": {
-      "title": "Official Resellers",
-      "description": "Purchase Opal from our trusted partners for localized payment methods and support.",
+      "title": "Официальные реселлеры",
+      "description": "Купить Opal у наших доверенных реселлеров используя .",
       "visit": "Visit Store",
       "localized": {
         "title": "Global Payment Methods",
