@@ -181,257 +181,257 @@
       "changelog": "Изменения"
     },
     "access": {
-      "title": "Access Control",
-      "hwid": "Hardware ID",
-      "lastChanged": "Last changed",
-      "ago": "ago",
-      "changeable": "Changeable every 30 days",
-      "reset": "Reset"
+      "title": "Управление доступа",
+      "hwid": "Хвид",
+      "lastChanged": "Был изменён",
+      "ago": "назад",
+      "changeable": "Можно изменить раз в 30 дней",
+      "reset": "Сбросить"
     },
     "docs": {
-      "title": "Documentation",
-      "description": "Learn how to use Opal to its full potential.",
+      "title": "Документация",
+      "description": "Узнай как использовать Opal на полную.",
       "nav": {
-        "setup": "Setup",
-        "modules": "Modules"
+        "setup": "Установка",
+        "modules": "Модули"
       }
     },
     "setup": {
-      "title": "Client Setup",
-      "description": "Follow these instructions to get Opal running on your machine.",
+      "title": "Установка клиента",
+      "description": "Следуйте этим инструкциями чтобы запустить Opal.",
       "instructions": {
-        "title": "Setup Instructions",
-        "description": "Step-by-step guide to installation.",
+        "title": "Инструкция по установке",
+        "description": "Шаг-за-шагом инструкция.",
         "step1": {
-          "title": "Launcher Setup",
-          "text": "Download {prismLink}, setup a new {fabricLink} profile for 1.21.10, and install the Fabric API mod.",
-          "note": "Prism is recommended until our custom launcher releases."
+          "title": "Установка лаунчера",
+          "text": "Скачайте {prismLink}, создайте {fabricLink} версию fabric для 1.21.10, и установите fabric api.",
+          "note": "Prism рекомендован, пока наш лаунчер не выпущен."
         },
         "step2": {
-          "title": "Download Opal",
-          "text": "Download Opal from {dashLink} and place it in your mods folder alongside Fabric API."
+          "title": "Скачайте Opal",
+          "text": "Скачайте Opal с {dashLink} и положите в папку mods вместе с fabric api."
         },
         "step3": {
-          "title": "JVM Arguments",
-          "text": "Add the following JVM arguments to your launch profile (Profile → Edit → Settings → Java Arguments):"
+          "title": "JVM Аргументы",
+          "text": "Добавьте эти JVM аргументы чтобы запустить Opal (Профиль → Редактировать → Настройки → Java Аргументы):"
         },
         "step4": {
-          "title": "Launch",
-          "text": "Launch Opal. You will be prompted to sign in with your Opal account."
+          "title": "Запуск",
+          "text": "Запустите созданную вами версию Opal."
         }
       },
       "troubleshooting": {
-        "title": "Troubleshooting",
-        "description": "Common issues and things to check before asking for help.",
+        "title": "Частые проблемы",
+        "description": "Частые проблемы и вопросы, которые стоит прочитать перед обращением в поддержку.",
         "checklist": {
-          "title": "Checklist",
+          "title": "Чеклист",
           "items": [
-            "Followed setup instructions exactly?",
-            "Using Prism Launcher?",
-            "Correct JVM arguments applied?",
-            "System time synced?",
-            "VPN disabled/changed location?",
-            "Connecting from blocked region (HK/CN)?"
+            "Следовали всем инструкциям?",
+            "Используете Prism?",
+            "Правильные ли JVM аргументы применены?",
+            "Синхронизировано ли время в системе?",
+            "Выключен ВПН?",
+            "Подключаетесь с заблокированных регионов (HK/CN)?"
           ]
         }
       },
       "commonErrors": {
-        "title": "Common Errors",
-        "description": "If you are encountering any of these errors, please check the following solutions.",
+        "title": "Частые ошибки",
+        "description": "Если вы встречаетесь с одной из этих проблем, пожалуйста посмотрите возможные решения ниже.",
         "items": [
           {
             "code": "Launch Error (No Code)",
-            "title": "Missing Java Arguments",
-            "description": "This indicates that the required JVM arguments are missing from your launcher profile."
+            "title": "Недостаток JVM Аргументов",
+            "description": "Это означает что вы не ввели нужные JVM Аргументы, пересмотри инструкцию по установке."
           },
           {
             "code": "0x5e",
-            "title": "Incompatible Launcher",
-            "description": "This error means the Java arguments are missing. This often happens when using an incompatible launcher."
+            "title": "Несовместимый лаунчер",
+            "description": "Эта ошибка означает что вы используете неподдерживаемый лаунчер, Prism Launcher рекомендуется"
           },
           {
             "code": "4e-63 / 4f-63",
-            "title": "Connection Issue",
-            "description": "These errors typically indicate a weak or unstable internet connection, or interference from a P2P VPN (e.g. Radmin, Hamachi). Please disable these services and try again."
+            "title": "Ошибка подключения",
+            "description": "Эти ошибки часто появляются при слабом/нестабильном интернет подключении, также их причиной могут быть P2P VPN (то есть Radmin, Hamachi). Выключите тому подобные и попробуйте снова"
           },
           {
             "code": "G-26",
-            "title": "HWID Mismatch",
-            "description": "We are not sure what causes this exactly, but usually resetting your HWID fixes it. You can request this in a support ticket if needed."
+            "title": "Неверный Хвид",
+            "description": "Мы не уверены что именно может вызывать это, но зачастую это исправляется сбросом хвида, попробуйте. В случае чего создайте тикет в дискорде"
           }
         ]
       },
       "mods": {
-        "title": "Mods",
-        "description": "Compatible and incompatible mods.",
+        "title": "Моды",
+        "description": "Cовместимые и нет моды.",
         "required": {
-          "title": "Required",
-          "badge": "Must Have"
+          "title": "Обязательные",
+          "badge": "Должны быть"
         },
         "recommended": {
-          "title": "Recommended",
-          "badge": "Good to Have",
-          "sodium": "Performance",
-          "accountSwitcher": "In-Game Account Switcher",
-          "accountSwitcherTooltip": "Join the Discord after linking your account to get our custom version"
+          "title": "Рекомендованные",
+          "badge": "Хорошо бы иметь",
+          "sodium": "Производительность",
+          "accountSwitcher": "Внутри игровая смена аккаунтов",
+          "accountSwitcherTooltip": "Зайдите в наш дискорд сервер, после привязки аккаунта вы получите нашу кастомную версию"
         },
         "incompatible": {
-          "title": "Incompatible",
-          "badge": "Do Not Use"
+          "title": "Не совместимые",
+          "badge": "Не использовать"
         },
         "unsupportedLaunchers": {
-          "title": "Unsupported Launchers",
-          "badge": "Not Supported",
-          "description": "The following launchers are not supported. Please use our official launcher or a compatible alternative."
+          "title": "Не поддерживаемы лаунчеры",
+          "badge": "Не поддерживаются",
+          "description": "Следующие лаунчеры не поддерживаются."
         }
       },
       "faq": {
-        "title": "FAQ",
-        "description": "Frequently asked questions.",
+        "title": "ЧЗВ",
+        "description": "Часто задаваемые вопросы.",
         "questions": {
           "olderVersions": {
-            "q": "How can I use Opal on older versions servers?",
-            "a": "By using {link}."
+            "q": "Как я могу использовать более старые версии Opal'a?",
+            "a": "По этой ссылке {link}."
           }
         }
       }
     },
     "changelog": {
-      "title": "Changelog",
-      "description": "Learn what's new in the latest version of Opal!",
-      "opalLauncher": "Opal Launcher",
+      "title": "Список изменений",
+      "description": "Узнай последнюю версию Opal'a!",
+      "opalLauncher": "Лаунчер Opal'a",
       "opal": "Opal",
-      "launcherBadge": "launcher",
-      "noNotes": "No changelog is available for this release."
+      "launcherBadge": "лаунчер",
+      "noNotes": "Нету списка изменений для этого релиза."
     },
     "activate": {
-      "title": "Activate License",
-      "description": "Have an activation key? Enter it below to redeem it. If you would like to migrate your client access, click {migrate} instead.",
-      "migrateBold": "Migrate",
+      "title": "Активировать лицензию",
+      "description": "У вас есть ключ лицензии? Введите его ниже чтобы активировать. Если же вы хотите мигрировать свою лицензию, нажмите {migrate}.",
+      "migrateBold": "Мигрировать",
       "tabs": {
-        "redeem": "Redeem",
-        "migrate": "Migrate",
-        "buy": "Buy"
+        "redeem": "Активировать",
+        "migrate": "Мигрировать",
+        "buy": "Купить"
       },
       "forms": {
         "redeem": {
           "placeholder": "OPAL-XXXX-XXXX-XXXX"
         },
         "migrate": {
-          "description": "If you already own <strong class=\"font-medium\">Opal</strong>, you can use this to transfer your access to our new system. If you need help, open a ticket.",
-          "username": "Username",
-          "password": "Password"
+          "description": "Если у вас уже есть <strong class=\"font-medium\">Opal</strong>, вы можете использовать миграцию чтобы перенести вашу лицензию в нашу новую систему. Если вы нуждаетесь в помощи, не стесняйтесь открывать тикет в дискорде.",
+          "username": "Логин",
+          "password": "Пароль"
         },
         "buy": {
-          "description": "Purchase <strong class=\"font-medium\">Opal</strong>. A key will be sent to your email after a successful purchase.",
-          "button": "Continue to Checkout"
+          "description": "Покупка <strong class=\"font-medium\">Opal</strong>. Ключ будет отправлен на вашу почту после успешной оплаты.",
+          "button": "Продолжить к оплате"
         },
-        "continue": "Continue"
+        "continue": "Продолжить"
       },
       "success": {
-        "title": "Congratulations!",
-        "description": "You've been granted access to Opal. <br />Welcome aboard!",
-        "dashboard": "Go to dashboard"
+        "title": "Поздравляем!",
+        "description": "Вы получили Opal. <br />Добро пожаловать!",
+        "dashboard": "Перейти к личному кабинету"
       },
       "errors": {
-        "invalidKey": "Code does not exist or is already redeemed.",
-        "invalidCredentials": "Invalid credentials.",
-        "generic": "Something went wrong. Please try again later.",
-        "failedCheckout": "Failed to start checkout"
+        "invalidKey": "Код не существует, или уже был применен.",
+        "invalidCredentials": "Неверные данные.",
+        "generic": "Гвоздь мне в кеды! Попробуйте попозже.",
+        "failedCheckout": "Не удалось перейти к оплате"
       }
     }
   },
   "configs": {
-    "title": "Public Configs",
+    "title": "Конфиги",
     "card": {
-      "noDescription": "No description provided",
-      "ago": "ago",
-      "edit": "Edit",
-      "editTitle": "Edit {name}",
-      "nameLabel": "Name",
-      "namePlaceholder": "{name}'s amazing config",
-      "descriptionLabel": "Description",
-      "descriptionPlaceholder": "What's this config for? Add any notes you'd like to share.",
-      "saveChanges": "Save changes",
-      "copyCommand": "Copy load command",
-      "copiedToast": "Copied command to clipboard!",
-      "publish": "Publish",
-      "publishTitle": "Make your config public!",
-      "publishDescription": "Select an existing public config to update or publish your config as a new one. When you publish a config, other users will be able to view it.",
-      "chooseConfig": "Choose a config to publish...",
-      "publishNew": "Publish as a new config",
-      "clone": "Clone to private configs",
-      "cloneTitle": "Are you absolutely sure?",
-      "cloneDescription": "You are about to clone this config to your private configs.",
-      "cancel": "Cancel",
-      "continue": "Continue",
-      "delete": "Delete",
-      "deleteTitle": "Are you absolutely sure?",
-      "deleteDescription": "{name} ({id}) will be permanently deleted along with all associated data. This action is irreversible.",
-      "changesSaved": "Changes saved!"
+      "noDescription": "Описания пока что нету",
+      "ago": "назад",
+      "edit": "Редактировать",
+      "editTitle": "Редактировать {name}",
+      "nameLabel": "Название",
+      "namePlaceholder": "Чудесный конфиг {name}",
+      "descriptionLabel": "Описание",
+      "descriptionPlaceholder": "Для чего этот конфиг? добавьте какие либо детали",
+      "saveChanges": "Сохранить изменения",
+      "copyCommand": "Команда сохранить",
+      "copiedToast": "Команда скопирована в буфер обмена!",
+      "publish": "Опубликовать",
+      "publishTitle": "Выложить ваш конфиг в общий доступ!",
+      "publishDescription": "Выберете существующий, либо создайте новый конфиг, который хотели бы выложить. Когда вы выкладываете ваш конфиг, другие смогут его увидеть.",
+      "chooseConfig": "Выберете желаемый конфиг...",
+      "publishNew": "Опубликовать как новый",
+      "clone": "Скопировать в приватные",
+      "cloneTitle": "Вы точно хотите этого?",
+      "cloneDescription": "Вы собираетесь скопировать этот конфиг в свои приватные.",
+      "cancel": "Отменить",
+      "continue": "Продолжить",
+      "delete": "Удалить",
+      "deleteTitle": "Вы точно хотите этого?",
+      "deleteDescription": "{name} ({id}) будет удален на веки вечные и все его данные. Это невозможно отменить.",
+      "changesSaved": "Изменения сохранены!"
     }
   },
   "settings": {
-    "title": "Settings",
+    "title": "Настройки",
     "nav": {
-      "account": "Account",
-      "security": "Security",
-      "connections": "Connections"
+      "account": "Аккаунт",
+      "security": "Безопасность",
+      "connections": "Подключения"
     },
     "account": {
-      "title": "Account",
+      "title": "Аккаунт",
       "username": {
-        "title": "Username",
-        "description": "This is the username associated with your account.",
-        "toast": "Your username has been changed!",
-        "cooldown": "Your username can be changed again in {time}.",
-        "requirements": "Your username must be between 1 and 24 characters long.",
-        "save": "Save changes"
+        "title": "Имя",
+        "description": "Это имя соеденённое с вашим аккаунтом.",
+        "toast": "Ваше имя было изменено!",
+        "cooldown": "Вы сможете изменить имя черещ {time}.",
+        "requirements": "Ваше имя должно быть от 1 до 24 символов длинной.",
+        "save": "Сохранить изменения"
       },
       "email": {
-        "title": "Email address",
-        "description": "This is the email address tied to your account.",
-        "footer": "Your email address is not changeable."
+        "title": "Електронная почта",
+        "description": "Это адрес електронной почты привязаной к вашему аккаунту.",
+        "footer": "Его нельзя изменить."
       }
     },
     "connections": {
-      "title": "Connections",
+      "title": "Подключения",
       "card": {
-        "title": "Connections",
-        "description": "Link your account to third-party services to access additional features.",
-        "connected": "Connected",
-        "ago": "ago",
-        "requiresSetup": "Requires setup",
-        "notConnected": "Not connected",
-        "disconnect": "Disconnect",
-        "connect": "Connect",
-        "connectSpotify": "Connect Spotify",
-        "setup": "Setup",
+        "title": "Подключения",
+        "description": "Подключи свой аккаунт к другим сервисам чтобы получить дополнительные функции.",
+        "connected": "Подключено",
+        "ago": "назад",
+        "requiresSetup": "Требует настройки",
+        "notConnected": "Не подключено",
+        "disconnect": "Отключить",
+        "connect": "Подключить",
+        "connectSpotify": "Подключить Spotify",
+        "setup": "Настроить",
         "spotify": {
-          "title": "Setup Spotify Integration",
-          "description": "Create your own Spotify app to enable the integration. This is required due to Spotify's API limits.",
-          "instructions": "Instructions:",
-          "step1": "Go to {link}",
-          "step2": "Create a new app (any name/description)",
-          "step3": "Add this Redirect URI to your app settings:",
-          "copied": "Copied!",
+          "title": "Настроить интеграцию со Spotify",
+          "description": "Создайте своё собственное Spotify приложение чтобы включить интеграцию. Это обязательно из за ограничений Spotify API.",
+          "instructions": "Инструкция:",
+          "step1": "Перейдите по {link}",
+          "step2": "Создать новое приложение (любое имя приложение)",
+          "step3": "Добавьте этот Redirect URI в ваши настройки приложения:",
+          "copied": "Скопировано!",
           "clientId": "Client ID",
-          "clientIdPlaceholder": "Your Spotify Client ID",
+          "clientIdPlaceholder": "Ваше Spotify Client ID",
           "clientSecret": "Client Secret",
-          "clientSecretPlaceholder": "Your Spotify Client Secret",
-          "saving": "Saving...",
-          "save": "Save Credentials"
+          "clientSecretPlaceholder": "Ваш Spotify Client Secret",
+          "saving": "Сохранение...",
+          "save": "Сохранить данные"
         }
       }
     },
     "security": {
-      "title": "Security",
+      "title": "Безопасность",
       "password": {
-        "title": "Change password",
-        "description": "For your security, we highly recommend that you choose a strong password you don't use anywhere else.",
-        "current": "Current password",
-        "new": "New password",
-        "requirements": "Your new password must be between 6 and 72 characters long.",
+        "title": "Изменить пароль",
+        "description": "Для вашей же безопасности, мы вам рекомендуем использовать пароль который вы не используете где либо ещё.",
+        "current": "Нынешний пароль",
+        "new": "Новый пароль",
+        "requirements": "Ваш новый пароль должен быть от 6 до 72 символов вдлину",
         "save": "Save changes",
         "toast": "Your password has been changed!"
       },
