@@ -80,8 +80,8 @@
       "subtitle": "Получи Opal как есть, либо открой полноценный игровой опыт вместе с Termus и получи Opal бесплатно!"
     },
     "chinaBanner": {
-      "text": "Are you in China? Purchase from our official resellers for better support and payment options.",
-      "link": "View Resellers"
+      "text": "Находитесь в Китае? Покупайте у наших официальных реселлеров.",
+      "link": "Посмотреть список"
     },
     "opal": {
       "title": "Opal Client",
@@ -120,65 +120,65 @@
     },
     "resellers": {
       "title": "Официальные реселлеры",
-      "description": "Купить Opal у наших доверенных реселлеров используя .",
-      "visit": "Visit Store",
+      "description": "Купить Opal у наших доверенных реселлеров используя способы оплаты вашей страны.",
+      "visit": "Посмотреть",
       "localized": {
-        "title": "Global Payment Methods",
-        "description": "Looking for regional pricing or specific payment methods not listed above? Our official resellers can help."
+        "title": "Глобальные способы оплаты",
+        "description": "Ищите региональные цены, либо не нашли нужный способ оплаты в перечисленных выше? Взгляните на официальных реселлеров."
       }
     },
     "upgrade": {
-      "title": "Existing Opal User?",
-      "description": "Upgrade to Terminus for only 25.99 USD. Open a ticket to claim."
+      "title": "Уже куплен Opal?",
+      "description": "Купите Terminus за 25.99 USD. Откройте тикер в Discord чтобы получить."
     },
-    "terms": "By purchasing, you agree to our Terms of Service. All sales are final. Lifetime means for the lifetime of the product."
+    "terms": "Совершая покупку, вы соглашаетесь с нашими Условиями обслуживания. Все продажи являются окончательными. Пожизненная гарантия (Навсегда) подразумевает срок службы самого продукта"
   },
   "dashboard": {
-    "title": "Dashboard",
+    "title": "Личный кабинет",
     "manage": "Manage",
     "nav": {
-      "home": "Home",
-      "purchase": "Purchase",
+      "home": "Главная",
+      "purchase": "Купить",
       "discord": "Discord",
-      "docs": "Documentation",
-      "setup": "Setup",
-      "configs": "Configs",
-      "changelog": "Changelog",
-      "activate": "Activate",
-      "settings": "Settings",
-      "overview": "Overview",
-      "users": "Users",
-      "network": "Network",
-      "forums": "Forums"
+      "docs": "Документация",
+      "setup": "Установка",
+      "configs": "Конфиги",
+      "changelog": "Список изменений",
+      "activate": "Активировать",
+      "settings": "Настройки",
+      "overview": "Обзор",
+      "users": "Пользователи",
+      "network": "Сеть",
+      "forums": "Форум"
     },
     "overview": {
-      "title": "Overview",
-      "userId": "User ID",
-      "launch": "Launch",
-      "launches": "Launches",
-      "online": "Online"
+      "title": "Обзор",
+      "userId": "ID пользователя",
+      "launch": "Запуск",
+      "launches": "Запусков всего",
+      "online": "Онлайн"
     },
     "news": {
-      "title": "News",
-      "view": "View",
-      "empty": "There's nothing here yet. Check back later!"
+      "title": "Новости",
+      "view": "Обзор",
+      "empty": "Пока ничего, возвращайтесь попозже!"
     },
     "downloads": {
-      "title": "Downloads",
+      "title": "Скачать",
       "opalClient": "Opal Client",
-      "downloadOpal": "Download Opal",
-      "selectRelease": "Select a release",
-      "download": "Download",
-      "updated": "Updated",
-      "ownedSince": "Owned since",
-      "changelog": "Changelog"
+      "downloadOpal": "Скачать Opal",
+      "selectRelease": "Выбрать версию",
+      "download": "Скачать",
+      "updated": "Обновлён",
+      "ownedSince": "Куплен",
+      "changelog": "Изменения"
     },
     "launcher": {
       "title": "Launcher",
       "opalLauncher": "Opal Launcher",
-      "availableSince": "Available since",
-      "updated": "Updated",
-      "changelog": "Changelog"
+      "availableSince": "Доступен с",
+      "updated": "Обновлён",
+      "changelog": "Изменения"
     },
     "access": {
       "title": "Access Control",
