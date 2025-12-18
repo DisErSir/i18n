@@ -36,20 +36,20 @@
       "learnMore": "Узнать больше"
     },
     "features": {
-      "title": "Why choose Opal?",
-      "subtitle": "With our abundant set of features, you'll never want to go back to another client.",
+      "title": "Почему именно Opal?",
+      "subtitle": "Благодаря нашему богатому функционалу вы больше никогда не захотите возвращаться к другому клиенту.",
       "items": {
         "abundant": {
-          "title": "Feature-abundant",
-          "description": "Opal has a vast number of modules with a variety of customization options."
+          "title": "Обилие функций",
+          "description": "Из за нашего огромного количества функций вы не почувствуете недостаток функций, особенно в визуальном плане."
         },
         "userFriendly": {
-          "title": "User-friendly",
-          "description": "Opal is designed to be simple and easy to use. Just install and you're good to go!"
+          "title": "Легок для использования",
+          "description": "Opal разработан также для лёгкости использования, просто установи fabric, сам мод, и всё готово!"
         },
         "updates": {
-          "title": "Consistent updates",
-          "description": "We deliver frequent updates to help you stay on top with new features."
+          "title": "Частые обновления",
+          "description": "Мы обновляем "
         },
         "compatibility": {
           "title": "Universal compatibility",
