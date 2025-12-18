@@ -1,39 +1,39 @@
 {
   "nav": {
-    "home": "Home",
-    "purchase": "Purchase",
+    "home": "На главную",
+    "purchase": "Купить",
     "discord": "Discord",
-    "dashboard": "Dashboard",
+    "dashboard": "Личный кабинет",
     "manage": "Manage"
   },
   "home": {
     "hero": {
       "texts": [
         {
-          "before": "Dominate the game with",
+          "before": "Доминируй оппонентов с",
           "after": "."
         },
         {
-          "before": "So good, competitors pretend they're",
+          "before": "Настолько хороши, что конкуренты пытаются быть нами",
           "after": "."
         },
         {
-          "before": "The original. The best. Always",
+          "before": "Настоящий. Лучший. Навсегда",
           "after": "."
         },
         {
-          "before": "Why settle for copies when you have",
+          "before": "Зачем использовать копии, когда у тебя есть",
           "after": "?"
         },
         {
-          "before": "Imitation is flattery. Excellence is",
+          "before": "Имитация - ложь. Совершентсво это -",
           "after": "."
         }
       ],
       "brand": "Opal Client",
-      "description": "A premium Minecraft utility mod built for the best experience possible. Opal currently supports Fabric for Minecraft 1.21.10, providing a smooth and enjoyable experience on both 1.8 and latest-version servers.",
-      "purchase": "Purchase",
-      "learnMore": "Learn more"
+      "description": "Премиальная Майнкрафт мод-модификация для Fabric 1.21.10 разработанная специально для предоставления лучшего опыта использования",
+      "purchase": "Купить",
+      "learnMore": "Узнать больше"
     },
     "features": {
       "title": "Why choose Opal?",
